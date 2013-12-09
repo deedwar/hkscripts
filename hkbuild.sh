@@ -43,12 +43,6 @@ cd vendor/cm
 cd ./../..
 echo -e ""
 
-# Sync Repo
-echo -e ""
-echo -e "${bldblu}Syncing Repos ${txtrst}"
-repo sync -j"$THREADS"
-echo -e ""
-
 # Make it so EVERY kernel fingerprint is #1
 rm -f out/target/product/*/obj/KERNEL_OBJ/.version
 
