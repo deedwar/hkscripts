@@ -1,5 +1,5 @@
 #!/bin/bash
-# HellKat Build Script
+# HellKat Build Script 1.0  
 
 # Fetch Current Path
 reldir=`dirname $0`
@@ -45,12 +45,9 @@ echo -e ""
 
 # Sync Repo
 echo -e ""
-if [ "$SYNC" == "true" ]
-then
-   echo -e "${bldblu}Syncing Repos ${txtrst}"
-   repo sync -j"$THREADS"
-   echo -e ""
-fi
+echo -e "${bldblu}Syncing Repos ${txtrst}"
+repo sync -j"$THREADS"
+echo -e ""
 
 # Make it so EVERY kernel fingerprint is #1
 rm -f out/target/product/*/obj/KERNEL_OBJ/.version
