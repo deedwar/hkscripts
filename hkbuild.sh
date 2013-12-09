@@ -33,7 +33,19 @@ res1=$(date +%s.%N)
 echo -e '\0033\0143'
 clear
 
-echo -e "${bldred}HELLKAT${txtrst}";
+# HellKat Logo
+echo -e ${bldred}"                                     "${txtrst}
+echo -e ${bldred}"    )                   )            "${txtrst}
+echo -e ${bldred}" ( /(   )   (   (    ( /(          ) "${txtrst}
+echo -e ${bldred}" )\())  )(  )\  )\   )\())   )  ( /( "${txtrst}
+echo -e ${bldred}"((_)\   /)\((_)((_) ((_)\ ( /(  )\())"${txtrst}
+echo -e ${bldred}" _((_) /((_)_) )_/ )_(((_))(_))(_))/ "${txtrst}
+echo -e ${bldred}"| || |(_)) | | | | | |/ /((_)_ | |_  "${txtrst}
+echo -e ${bldred}"| __ |/ -_)| | | | | ' < / _' ||  _| "${txtrst}
+echo -e ${bldred}"|_||_|\___||_| |_| |_|\_\\__,_| \__| "${txtrst}
+echo -e ${bldred}"                                     "${txtrst}
+echo -e ${bldred}"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="${txtrst}
+echo -e ${bldred}"                                     "${txtrst}
 
 # Prebuilt Files
 echo -e ""
