@@ -22,7 +22,6 @@ bldpur=${txtbld}$(tput setaf 5) # purple
 bldpnk=${txtbld}$(tput bold ; tput setaf 5) # pink
 bldcya=${txtbld}$(tput setaf 6) # cyan
 txtrst=$(tput sgr0) # Reset
-THREADS="16"
 DEVICE="$1"
 EXTRAS="$2"
 
@@ -76,7 +75,8 @@ rm -rf out/target/product/$DEVICE/*.zip
 rm -rf out/target/product/$DEVICE/*.zip.md5
 
 # Start Compilation
-mka bacon
+script -q ~/HKCompile.log -c " 
+mka bacon -j16 "
 echo -e ""
 
 # Show Elapsed Time
