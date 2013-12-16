@@ -75,7 +75,7 @@ rm -rf out/target/product/$DEVICE/*.zip
 rm -rf out/target/product/$DEVICE/*.zip.md5
 
 # Start Compilation
-script -q ~/HKCompile.log -c " make bacon -j16 "
+script -q ~/HKCompile.log -c " make bacon "
 echo -e ""
 
 # Show Elapsed Time
