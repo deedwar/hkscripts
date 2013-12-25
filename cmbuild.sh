@@ -33,27 +33,18 @@ echo -e '\0033\0143'
 clear
 
 # CM11-Linaro Logo
-echo -e ${bldcya}"                                         "${txtrst}
-echo -e ${bldcya}"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="${txtrst}
-echo -e ${bldcya}"                                         "${txtrst}
-echo -e ${bldcya}"   (     (        )          (        )  "${txtrst}
-echo -e ${bldcya}"   )\ )  )\ )  ( /(   (      )\ )  ( /(  "${txtrst}
-echo -e ${bldcya}"  (()/( (()/(  )\())  )\    (()/(  )\()) "${txtrst}
-echo -e ${bldcya}"   /(_)) /(_))((_)\((((_)(   /(_))((_)\  "${txtrst}
-echo -e ${bldcya}"  (_))  (_))   _((_))\ _ )\ (_))    ((_) "${txtrst}
-echo -e ${bldcya}"  | |   |_ _| | \| |(_)_\(_)| _ \  / _ \ "${txtrst}
-echo -e ${bldcya}"  | |__  | |  | .` | / _ \  |   / | (_) |"${txtrst}
-echo -e ${bldcya}"  |____||___| |_|\_|/_/ \_\ |_|_\  \___/ "${txtrst}
-echo -e ${bldcya}"        (    (  `       )    )      )    "${txtrst}
-echo -e ${bldcya}"        )\   )\))(   ( /( ( /(   ( /(    "${txtrst}
-echo -e ${bldcya}"      (((_) ((_)()\  )\()))\())  )\())   "${txtrst}
-echo -e ${bldcya}"      )\___ (_()((_)((_)\((_)\  ((_)\    "${txtrst}
-echo -e ${bldcya}"     ((/ __||  \/  | / (_)/ (_) /  (_)   "${txtrst}
-echo -e ${bldcya}"      | (__ | |\/| | | |  | | _| () |    "${txtrst}
-echo -e ${bldcya}"       \___||_|  |_| |_|  |_|(_)\__/     "${txtrst}
-echo -e ${bldcya}"                                         "${txtrst}
-echo -e ${bldcya}"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="${txtrst}
-echo -e ${bldcya}"                                         "${txtrst}
+echo -e ${bldcya}"                                          "${txtrst}
+echo -e ${bldcya}"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"${txtrst}
+echo -e ${bldcya}"                                          "${txtrst}
+echo -e ${bldcya}"        )\   )\))(   ( /( ( /(   ( /(     "${txtrst}
+echo -e ${bldcya}"      (((_) ((_)()\  )\()))\())  )\())    "${txtrst}
+echo -e ${bldcya}"      )\___ (_()((_)((_)\((_)\  ((_)\     "${txtrst}
+echo -e ${bldcya}"     ((/ __||  \/  | / (_)/ (_) /  (_)    "${txtrst}
+echo -e ${bldcya}"      | (__ | |\/| | | |  | | _| () |     "${txtrst}
+echo -e ${bldcya}"       \___||_|  |_| |_|  |_|(_)\__/      "${txtrst}
+echo -e ${bldcya}"                                          "${txtrst}
+echo -e ${bldcya}"=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"${txtrst}
+echo -e ${bldcya}"                                          "${txtrst}
 
 # Prebuilt Files
 echo -e ""
