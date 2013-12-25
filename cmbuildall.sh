@@ -27,26 +27,26 @@ sleep 5
 echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
-bash hkbuild.sh hercules
+bash cmbuild.sh hercules
 
 echo ""
 echo "${bldred}Compiling Skyrocket!!!${txtrst}"
 sleep 5
-bash hkbuild.sh skyrocket
+bash cmbuild.sh skyrocket
 
 echo ""
 echo "${bldred}Compiling t0lte!!!${txtrst}"
 sleep 5
-bash hkbuild.sh t0lte
+bash cmbuild.sh t0lte
 
 echo ""
 echo "${bldred}Compiling n7100!!!${txtrst}"
 sleep 5
-bash hkbuild.sh n7100
+bash cmbuild.sh n7100
 
 echo ""
 echo "${bldred}Compiling jfltetmo!!!${txtrst}"
 sleep 5
-bash hkbuild.sh jfltetmo
+bash cmbuild.sh jfltetmo
            
 
