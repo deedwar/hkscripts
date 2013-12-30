@@ -72,7 +72,7 @@ echo -e "${bldred}Compiling HellKat!!! ${txtrst}"
 # Cleanup Out Directory
 rm -f out/target/product/$DEVICE/system/build.prop
 rm -rf out/target/product/$DEVICE/*.zip
-rm -rf out/target/product/$DEVICE/*.zip.md5
+rm -rf out/target/product/$DEVICE/*.zip.md5sum
 
 # Start Compilation
 script -q ~/HKCompile.log -c " make bacon -j12 "
