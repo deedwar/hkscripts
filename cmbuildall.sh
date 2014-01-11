@@ -25,6 +25,10 @@ echo "${bldred}It's time to build some CM11-Linaro ROMs!!!${txtrst}"
 sleep 5
 
 echo ""
+echo "${bldred}Compiling Mako!!!${txtrst}"
+sleep 5
+bash cmbuild.sh mako
+echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash cmbuild.sh hercules
