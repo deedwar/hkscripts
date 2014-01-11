@@ -27,6 +27,11 @@ sleep 5
 echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
+bash hkbuild.sh mako
+
+echo ""
+echo "${bldred}Compiling Hercules!!!${txtrst}"
+sleep 5
 bash hkbuild.sh hercules
 
 echo ""
