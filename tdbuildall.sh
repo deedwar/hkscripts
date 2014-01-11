@@ -25,7 +25,7 @@ echo "${bldred}It's time to build some HellKat ROMs!!!${txtrst}"
 sleep 5
 
 echo ""
-echo "${bldred}Compiling Hercules!!!${txtrst}"
+echo "${bldred}Compiling Mako!!!${txtrst}"
 sleep 5
 bash hkbuild.sh mako
 
