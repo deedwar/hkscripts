@@ -48,7 +48,7 @@ echo -e ${bldcya}"                                          "${txtrst}
 
 # Prebuilt Files
 echo -e ""
-echo -e "${bldcya}Downloading Prebuilts from CM${txtrst}"
+echo -e "${bldpur}Downloading Prebuilts from CM${txtrst}"
 cd vendor/cm
 ./get-prebuilts
 cd ./../..
@@ -58,7 +58,7 @@ echo -e ""
 rm -f out/target/product/*/obj/KERNEL_OBJ/.version
 
 # Setup Environment
-echo -e "${bldyel}Setting Up Environment ${txtrst}"
+echo -e "${bldgrn}Setting Up Environment ${txtrst}"
 . build/envsetup.sh
 
 # Lunch Device
@@ -67,7 +67,7 @@ echo -e "${bldpnk}Lunching device ${txtrst}"
 lunch "cm_$DEVICE-userdebug";
 
 echo -e ""
-echo -e "${bldred}Compiling CM11-Linaro!!! ${txtrst}"
+echo -e "${bldcya}Compiling CM11-Linaro!!! ${txtrst}"
 
 # Cleanup Out Directory
 rm -f out/target/product/$DEVICE/system/build.prop
@@ -80,4 +80,4 @@ echo -e ""
 
 # Show Elapsed Time
 res2=$(date +%s.%N)
-echo "${bldred}Total time elapsed: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
+echo "${bldcya}Total time elapsed: ${txtrst}${cya}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
