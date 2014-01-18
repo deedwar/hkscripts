@@ -48,7 +48,7 @@ echo -e ${bldcya}"(()/( (   (  (   ( /(  ( /(       (          (  (  "${txtrst}
 echo -e ${bldcya}" /(_)))\  )\))(  )\()) )\()) (    )\   (     )\))( "${txtrst}
 echo -e ${bldcya}"(_)) ((_)((_))\ ((_)\ (_))/  )\ )((_)  )\ ) ((_))\ "${txtrst}
 echo -e ${bldcya}"| |   (_) (()(_)| |(_)| |_  _(_/( (_) _(_/(  (()(_)"${txtrst}
-echo -e ${bldcya}"| |__ | |/ _` | | ' \ |  _|| ' \))| || ' \))/ _` | "${txtrst}
+echo -e ${bldcya}"| |__ | |/ _  | | ' \ |  _|| ' \))| || ' \))/ _  | "${txtrst}
 echo -e ${bldcya}"|____||_|\__, | |_||_| \__||_||_| |_||_||_| \__, | "${txtrst}
 echo -e ${bldcya}"         |___/                              |___/  "${txtrst}
 echo -e ${bldcya}"                                                   "${txtrst}
