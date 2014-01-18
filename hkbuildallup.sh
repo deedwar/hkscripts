@@ -17,6 +17,9 @@ bldpnk=${txtbld}$(tput bold ; tput setaf 5) # pink
 bldcya=${txtbld}$(tput setaf 6) # cyan
 txtrst=$(tput sgr0) # Reset
 
+# Start Time
+res1=$(date +%s.%N)
+
 echo "${bldred}Remove Old Hellkat Versions Before Compile${txtrst}"
 rm -f out/target/product/*/Hellkat*.zip
 
@@ -72,4 +75,9 @@ echo "${bldred}Compiling otter!!!${txtrst}"
 sleep 5
 bash hkbuild.sh otter
 scp -v out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/hellkat/
+
+
+# Show Elapsed Time
+res2=$(date +%s.%N)
+echo "${bldred}Total time elapsed: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
 
