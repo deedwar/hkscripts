@@ -79,5 +79,5 @@ scp -v out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/hellde
 
 # Show Elapsed Time
 res2=$(date +%s.%N)
-echo "${bldred}Total time elapsed: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
+echo "${bldred}Total elapsed time of ALL BUILDS AND UPLOADS: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
 
