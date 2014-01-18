@@ -31,6 +31,12 @@ bash hkbuild.sh mako
 scp -v out/target/product/mako/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/hellkat/
 
 echo ""
+echo "${bldred}Compiling Hammerhead!!!${txtrst}"
+sleep 5
+bash hkbuild.sh hammerhead
+scp -v out/target/product/hammerhead/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/hellkat/
+
+echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash hkbuild.sh hercules
@@ -60,4 +66,10 @@ sleep 5
 bash hkbuild.sh jfltetmo
 scp -v out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
            
+
+echo ""
+echo "${bldred}Compiling otter!!!${txtrst}"
+sleep 5
+bash hkbuild.sh otter
+scp -v out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/hellkat/
 
