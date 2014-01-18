@@ -76,7 +76,7 @@ echo -e "${bldpnk}Lunching device ${txtrst}"
 lunch "cm_$DEVICE-userdebug";
 
 echo -e ""
-echo -e "${bldred}Compiling BlueLightning!!! ${txtrst}"
+echo -e "${bldblu}Compiling BlueLightning!!! ${txtrst}"
 
 # Cleanup Out Directory
 rm -f out/target/product/$DEVICE/system/build.prop
