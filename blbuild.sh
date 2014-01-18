@@ -33,27 +33,26 @@ echo -e '\0033\0143'
 clear
 
 # BlueLightning Logo
-echo -e ${bldcya}"                                                   "${txtrst}
-echo -e ${bldcya}"                                                   "${txtrst}
-echo -e ${bldcya}"                 (   (                             "${txtrst}
-echo -e ${bldcya}"               ( )\  )\   (     (                  "${txtrst}
-echo -e ${bldcya}"               )((_)((_) ))\   ))\                 "${txtrst}
-echo -e ${bldcya}"             ((_)_  _  /((_) /((_)                 "${txtrst}
-echo -e ${bldcya}"               | _ )| |(_))( (_))                  "${txtrst}
-echo -e ${bldcya}"               | _ \| || || |/ -_)                 "${txtrst}
-echo -e ${bldcya}"               |___/|_| \_,_|\___|                 "${txtrst}
-echo -e ${bldcya}" (                                                 "${txtrst}
-echo -e ${bldcya}" )\ )               )     )                        "${txtrst}
-echo -e ${bldcya}"(()/( (   (  (   ( /(  ( /(       (          (  (  "${txtrst}
-echo -e ${bldcya}" /(_)))\  )\))(  )\()) )\()) (    )\   (     )\))( "${txtrst}
-echo -e ${bldcya}"(_)) ((_)((_))\ ((_)\ (_))/  )\ )((_)  )\ ) ((_))\ "${txtrst}
-echo -e ${bldcya}"| |   (_) (()(_)| |(_)| |_  _(_/( (_) _(_/(  (()(_)"${txtrst}
-echo -e ${bldcya}"| |__ | |/ _  | | ' \ |  _|| ' \))| || ' \))/ _  | "${txtrst}
-echo -e ${bldcya}"|____||_|\__, | |_||_| \__||_||_| |_||_||_| \__, | "${txtrst}
-echo -e ${bldcya}"         |___/                              |___/  "${txtrst}
-echo -e ${bldcya}"                                                   "${txtrst}
-echo -e ${bldcya}"                                                   "${txtrst}
-echo -e ${bldcya}"                                                   "${txtrst}
+echo -e ${bldblu}"                                                   "${txtrst}
+echo -e ${bldblu}"                                                   "${txtrst}
+echo -e ${bldblu}"                 (   (                             "${txtrst}
+echo -e ${bldblu}"               ( )\  )\   (     (                  "${txtrst}
+echo -e ${bldblu}"               )((_)((_) ))\   ))\                 "${txtrst}
+echo -e ${bldblu}"             ((_)_  _  /((_) /((_)                 "${txtrst}
+echo -e ${bldblu}"               | _ )| |(_))( (_))                  "${txtrst}
+echo -e ${bldblu}"               | _ \| || || |/ -_)                 "${txtrst}
+echo -e ${bldblu}" (             |___/|_| \_,_|\___|                 "${txtrst}
+echo -e ${bldblu}" )\ )               )     )                        "${txtrst}
+echo -e ${bldblu}"(()/( (   (  (   ( /(  ( /(       (          (  (  "${txtrst}
+echo -e ${bldblu}" /(_)))\  )\))(  )\()) )\()) (    )\   (     )\))( "${txtrst}
+echo -e ${bldblu}"(_)) ((_)((_))\ ((_)\ (_))/  )\ )((_)  )\ ) ((_))\ "${txtrst}
+echo -e ${bldblu}"| |   (_) (()(_)| |(_)| |_  _(_/( (_) _(_/(  (()(_)"${txtrst}
+echo -e ${bldblu}"| |__ | |/ _  | | ' \ |  _|| ' \))| || ' \))/ _  | "${txtrst}
+echo -e ${bldblu}"|____||_|\__, | |_||_| \__||_||_| |_||_||_| \__, | "${txtrst}
+echo -e ${bldblu}"         |___/                              |___/  "${txtrst}
+echo -e ${bldblu}"                                                   "${txtrst}
+echo -e ${bldblu}"                                                   "${txtrst}
+echo -e ${bldblu}"                                                   "${txtrst}
 
 # Prebuilt Files
 echo -e ""
