@@ -28,36 +28,36 @@ echo ""
 echo "${bldred}Compiling Mako!!!${txtrst}"
 sleep 5
 bash hkbuild.sh mako
-scp out/target/product/mako/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/hellkat/
+scp -v out/target/product/mako/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/hellkat/
 
 echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash hkbuild.sh hercules
-scp out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
+scp -v out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
 
 echo ""
 echo "${bldred}Compiling Skyrocket!!!${txtrst}"
 sleep 5
 bash hkbuild.sh skyrocket
-scp out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
+scp -v out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
 
 echo ""
 echo "${bldred}Compiling t0lte!!!${txtrst}"
 sleep 5
 bash hkbuild.sh t0lte
-scp out/target/product/t0lte/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/hellkat/
+scp -v out/target/product/t0lte/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/hellkat/
 
 echo ""
 echo "${bldred}Compiling n7100!!!${txtrst}"
 sleep 5
 bash hkbuild.sh n7100
-scp out/target/product/n7100/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/hellkat/
+scp -v out/target/product/n7100/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/hellkat/
 
 echo ""
 echo "${bldred}Compiling jfltetmo!!!${txtrst}"
 sleep 5
 bash hkbuild.sh jfltetmo
-scp out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
+scp -v out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
            
 
