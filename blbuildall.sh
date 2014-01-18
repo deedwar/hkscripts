@@ -21,36 +21,36 @@ echo "${bldred}Remove Old BlueLightning Versions Before Compile${txtrst}"
 rm -f out/target/product/*/BlueLightning*.zip
 
 echo ""
-echo "${bldred}It's time to build some BlueLightning ROMs!!!${txtrst}"
+echo "${bldblu}It's time to build some BlueLightning ROMs!!!${txtrst}"
 sleep 5
 
 echo ""
-echo "${bldred}Compiling Mako!!!${txtrst}"
+echo "${bldblu}Compiling Mako!!!${txtrst}"
 sleep 5
 bash blbuild.sh mako
 
 echo ""
-echo "${bldred}Compiling Hercules!!!${txtrst}"
+echo "${bldblu}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash blbuild.sh hercules
 
 echo ""
-echo "${bldred}Compiling Skyrocket!!!${txtrst}"
+echo "${bldblu}Compiling Skyrocket!!!${txtrst}"
 sleep 5
 bash blbuild.sh skyrocket
 
 echo ""
-echo "${bldred}Compiling t0lte!!!${txtrst}"
+echo "${bldblu}Compiling t0lte!!!${txtrst}"
 sleep 5
 bash blbuild.sh t0lte
 
 echo ""
-echo "${bldred}Compiling n7100!!!${txtrst}"
+echo "${bldblu}Compiling n7100!!!${txtrst}"
 sleep 5
 bash blbuild.sh n7100
 
 echo ""
-echo "${bldred}Compiling jfltetmo!!!${txtrst}"
+echo "${bldblu}Compiling jfltetmo!!!${txtrst}"
 sleep 5
 bash blbuild.sh jfltetmo
            
