@@ -17,6 +17,8 @@ bldpnk=${txtbld}$(tput bold ; tput setaf 5) # pink
 bldcya=${txtbld}$(tput setaf 6) # cyan
 txtrst=$(tput sgr0) # Reset
 
+export SSHPASS=XXXXXXXX
+
 # Start Time
 res1=$(date +%s.%N)
 
@@ -31,50 +33,49 @@ echo ""
 echo "${bldred}Compiling Mako!!!${txtrst}"
 sleep 5
 bash hkbuild.sh mako
-scp -v -P 2222 out/target/product/mako/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/mako/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/mako/hellkat/
 
 echo ""
 echo "${bldred}Compiling Hammerhead!!!${txtrst}"
 sleep 5
 bash hkbuild.sh hammerhead
-scp -v -P 2222 out/target/product/hammerhead/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/hammerhead/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/hellkat/
 
 echo ""
 echo "${bldred}Compiling Hercules!!!${txtrst}"
 sleep 5
 bash hkbuild.sh hercules
-scp -v -P 2222 out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
 
 echo ""
 echo "${bldred}Compiling Skyrocket!!!${txtrst}"
 sleep 5
 bash hkbuild.sh skyrocket
-scp -v -P 2222 out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
 
 echo ""
 echo "${bldred}Compiling t0lte!!!${txtrst}"
 sleep 5
 bash hkbuild.sh t0lte
-scp -v -P 2222 out/target/product/t0lte/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/t0lte/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/t0lte/hellkat/
 
 echo ""
 echo "${bldred}Compiling n7100!!!${txtrst}"
 sleep 5
 bash hkbuild.sh n7100
-scp -v -P 2222 out/target/product/n7100/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/n7100/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/n7100/hellkat/
 
 echo ""
 echo "${bldred}Compiling jfltetmo!!!${txtrst}"
 sleep 5
 bash hkbuild.sh jfltetmo
-scp -v -P 2222 out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
-           
+sshpass -e scp -v -P 2222 out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
 
 echo ""
 echo "${bldred}Compiling otter!!!${txtrst}"
 sleep 5
 bash hkbuild.sh otter
-scp -v -P 2222 out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/hellkat/
+sshpass -e scp -v -P 2222 out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/hellkat/
 
 
 # Show Elapsed Time
