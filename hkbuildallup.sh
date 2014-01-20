@@ -71,13 +71,6 @@ sleep 5
 bash hkbuild.sh jfltetmo
 sshpass -e scp -v -P 2222 out/target/product/jfltetmo/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/hellkat/
 
-echo ""
-echo "${bldred}Compiling otter!!!${txtrst}"
-sleep 5
-bash hkbuild.sh otter
-sshpass -e scp -v -P 2222 out/target/product/otter/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/hellkat/
-
-
 # Show Elapsed Time
 res2=$(date +%s.%N)
 echo "${bldred}Total elapsed time of ALL BUILDS AND UPLOADS: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"

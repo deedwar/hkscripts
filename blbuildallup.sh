@@ -72,12 +72,6 @@ sleep 5
 bash blbuild.sh jfltetmo
 sshpass -e scp -v -P 2222 out/target/product/jfltetmo/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/jfltetmo/bluelightning/
 
-echo ""
-echo "${bldblu}Compiling otter!!!${txtrst}"
-sleep 5
-bash blbuild.sh otter
-sshpass -e scp -v -P 2222 out/target/product/otter/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/otter/bluelightning/
-
 # Show Elapsed Time
 res2=$(date +%s.%N)
 echo "${bldblu}Total elapsed time of ALL BUILDS AND UPLOADS: ${txtrst}${blu}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
