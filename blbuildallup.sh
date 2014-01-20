@@ -42,17 +42,17 @@ sleep 5
 bash blbuild.sh hammerhead
 sshpass -e scp -v -P 2222 out/target/product/hammerhead/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/bluelightning/
 
-echo ""
-echo "${bldblu}Compiling Hercules!!!${txtrst}"
-sleep 5
-bash blbuild.sh hercules
-sshpass -e scp -v -P 2222 out/target/product/hercules/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/bluelightning/
+# echo ""
+# echo "${bldblu}Compiling Hercules!!!${txtrst}"
+# sleep 5
+# bash blbuild.sh hercules
+# sshpass -e scp -v -P 2222 out/target/product/hercules/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/bluelightning/
 
-echo ""
-echo "${bldblu}Compiling Skyrocket!!!${txtrst}"
-sleep 5
-bash blbuild.sh skyrocket
-sshpass -e scp -v -P 2222 out/target/product/skyrocket/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/bluelightning/
+# echo ""
+# echo "${bldblu}Compiling Skyrocket!!!${txtrst}"
+# sleep 5
+# bash blbuild.sh skyrocket
+# sshpass -e scp -v -P 2222 out/target/product/skyrocket/BlueLightning*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/bluelightning/
 
 echo ""
 echo "${bldblu}Compiling t0lte!!!${txtrst}"
