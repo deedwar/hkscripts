@@ -41,17 +41,17 @@ sleep 5
 bash hkbuild.sh hammerhead
 sshpass -e scp -v -P 2222 out/target/product/hammerhead/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/hellkat/
 
-echo ""
-echo "${bldred}Compiling Hercules!!!${txtrst}"
-sleep 5
-bash hkbuild.sh hercules
-sshpass -e scp -v -P 2222 out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
+# echo ""
+# echo "${bldred}Compiling Hercules!!!${txtrst}"
+# sleep 5
+# bash hkbuild.sh hercules
+# sshpass -e scp -v -P 2222 out/target/product/hercules/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/hellkat/
 
-echo ""
-echo "${bldred}Compiling Skyrocket!!!${txtrst}"
-sleep 5
-bash hkbuild.sh skyrocket
-sshpass -e scp -v -P 2222 out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
+# echo ""
+# echo "${bldred}Compiling Skyrocket!!!${txtrst}"
+# sleep 5
+# bash hkbuild.sh skyrocket
+# sshpass -e scp -v -P 2222 out/target/product/skyrocket/Hellkat*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/hellkat/
 
 echo ""
 echo "${bldred}Compiling t0lte!!!${txtrst}"
