@@ -42,17 +42,17 @@ sleep 5
 bash cmbuild.sh hammerhead
 sshpass -e scp -v -P 2222 out/target/product/hammerhead/cm-11*.ziphelldevs@upload.goo.im:/home/helldevs/public_html/hammerhead/cm11/
 
-# echo ""
-# echo "${bldcya}Compiling Hercules!!!${txtrst}"
-# sleep 5
-# bash cmbuild.sh hercules
-# sshpass -e scp -v -P 2222 out/target/product/hercules/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/cm11/
+echo ""
+echo "${bldcya}Compiling Hercules!!!${txtrst}"
+sleep 5
+bash cmbuild.sh hercules
+sshpass -e scp -v -P 2222 out/target/product/hercules/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/hercules/cm11/
 
-# echo ""
-# echo "${bldcya}Compiling Skyrocket!!!${txtrst}"
-# sleep 5
-# bash cmbuild.sh skyrocket
-# sshpass -e scp -v -P 2222 out/target/product/skyrocket/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/cm11/
+echo ""
+echo "${bldcya}Compiling Skyrocket!!!${txtrst}"
+sleep 5
+bash cmbuild.sh skyrocket
+sshpass -e scp -v -P 2222 out/target/product/skyrocket/cm-11*.zip helldevs@upload.goo.im:/home/helldevs/public_html/skyrocket/cm11/
 
 echo ""
 echo "${bldcya}Compiling t0lte!!!${txtrst}"
