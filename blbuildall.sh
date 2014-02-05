@@ -17,7 +17,7 @@ bldpnk=${txtbld}$(tput bold ; tput setaf 5) # pink
 bldcya=${txtbld}$(tput setaf 6) # cyan
 txtrst=$(tput sgr0) # Reset
 
-echo "${bldred}Remove Old BlueLightning Versions Before Compile${txtrst}"
+echo "${bldblu}Remove Old BlueLightning Versions Before Compile${txtrst}"
 rm -f out/target/product/*/BlueLightning*.zip
 
 echo ""

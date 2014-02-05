@@ -88,4 +88,4 @@ echo -e ""
 
 # Show Elapsed Time
 res2=$(date +%s.%N)
-echo "${bldred}Total time elapsed: ${txtrst}${red}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
+echo "${bldblu}Total time elapsed: ${txtrst}${blu}$(echo "($res2 - $res1) / 60"|bc ) minutes ($(echo "$res2 - $res1"|bc ) seconds) ${txtrst}"
